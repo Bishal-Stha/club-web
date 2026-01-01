@@ -1,0 +1,69 @@
+# .DS_Store
+# /node_modules/
+
+# # React Router
+# /.react-router/
+# /build/
+
+# =========================
+# Dependencies
+# =========================
+node_modules/
+
+# =========================
+# Build outputs
+# =========================
+build/
+dist/
+
+# =========================
+# Environment variables
+# =========================
+.env
+.env.local
+.env.*.local
+
+# =========================
+# React Router / Vite cache
+# =========================
+.react-router/
+.vite/
+
+# =========================
+# Logs
+# =========================
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================
+# Test / Coverage
+# =========================
+coverage/
+
+# =========================
+# OS / Editor files
+# =========================
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# =========================
+# Temporary / local scripts
+# =========================
+temp_*.js
+temp_*.d.ts
+
+# =========================
+# Bun
+# =========================
+bun.lockb
+
+# =========================
+# Misc
+# =========================
+*.local
